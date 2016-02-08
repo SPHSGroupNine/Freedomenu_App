@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/AppTheme"
+    android:weightSum="1"
+    tools:context="com.freedomenu.MainActivity2">
+
+    <Button
+        android:layout_width="427dp"
+        android:layout_height="755dp"
+        android:background="@null"
+        android:id="@+id/button_coffee_left"
+        android:visibility="visible" />
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="300dp"
+        android:id="@+id/Salad_main"
+        android:background="@drawable/coffee"
+        android:layout_gravity="center"
+        android:adjustViewBounds="false"
+        android:baselineAlignBottom="false"
+        android:clickable="false" />
+
+    <Button
+        android:layout_width="427dp"
+        android:layout_height="755dp"
+        android:background="@null"
+        android:id="@+id/button_coffee_center"
+        android:layout_gravity="center_horizontal|top"
+        android:visibility="visible" />
+
+    <Button
+        android:layout_width="389dp"
+        android:layout_height="755dp"
+        android:background="@null"
+        android:id="@+id/button_coffee_right"
+        android:layout_gravity="end|top"
+        android:visibility="visible" />
+
+    <ImageView
+        android:layout_width="330dp"
+        android:layout_height="450dp"
+        android:id="@+id/arrow_salad_right"
+        android:background="@drawable/right_triangle"
+        android:layout_gravity="end|center_vertical" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Coffee"
+        android:id="@+id/Type_Salad"
+        android:textIsSelectable="false"
+        android:typeface="serif"
+        android:textSize="130sp"
+        android:layout_gravity="center_horizontal|top" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="$$$"
+        android:id="@+id/Price_Salad"
+        android:textSize="70sp"
+        android:textIsSelectable="false"
+        android:typeface="serif"
+
+        android:layout_gravity="center_horizontal|bottom" />
+
+    <ImageView
+        android:layout_width="330dp"
+        android:layout_height="450dp"
+        android:id="@+id/arrow_salad_left"
+        android:background="@drawable/left_triangle"
+
+        android:layout_gravity="start|center_vertical" />
+
+
+</FrameLayout>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <Button
+        android:layout_width="427dp"
+        android:layout_height="755dp"
+        android:text="New Button"
+        android:id="@+id/button_salad_generic_left"
+        android:visibility="visible"
+        android:background="@null"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/arrow_salad_generic_left" />
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="300dp"
+        android:id="@+id/Salad_main"
+        android:background="@drawable/salad_generic"
+        android:layout_gravity="center"
+        android:adjustViewBounds="false"
+        android:baselineAlignBottom="false"
+        android:clickable="false"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="427dp"
+        android:layout_height="755dp"
+        android:text="New Button"
+        android:id="@+id/button_salad_generic_center"
+        android:visibility="visible"
+        android:background="@null"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center_horizontal|top" />
+
+    <Button
+        android:layout_width="389dp"
+        android:layout_height="755dp"
+        android:text="New Button"
+        android:id="@+id/button_salad_generic_right"
+        android:visibility="visible"
+        android:background="@null"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="false"
+        android:layout_gravity="right|top" />
+
+    <ImageView
+        android:layout_width="330dp"
+        android:layout_height="450dp"
+        android:id="@+id/arrow_salad_right"
+        android:background="@drawable/right_triangle"
+        android:layout_alignBottom="@+id/Price_Salad"
+        android:layout_toRightOf="@+id/button_severn_club_center"
+        android:layout_alignTop="@+id/Salad_main"
+        android:layout_gravity="right|center_vertical" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Park Salad"
+        android:id="@+id/Type_Salad"
+        android:textIsSelectable="false"
+        android:typeface="serif"
+        android:layout_above="@+id/Salad_main"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentStart="false"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentTop="true"
+        android:textSize="130sp"
+        android:layout_gravity="center_horizontal|top" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Price: $5.99"
+        android:id="@+id/Price_Salad"
+        android:textSize="60sp"
+        android:textIsSelectable="false"
+        android:typeface="serif"
+        android:layout_below="@+id/Salad_main"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal|bottom" />
+
+    <ImageView
+        android:layout_width="330dp"
+        android:layout_height="450dp"
+        android:id="@+id/arrow_salad_left"
+        android:background="@drawable/left_triangle"
+        android:longClickable="false"
+        android:layout_below="@+id/Type_Salad"
+        android:layout_alignBottom="@+id/Price_Salad"
+        android:layout_gravity="left|center_vertical" />
+
+</FrameLayout>
