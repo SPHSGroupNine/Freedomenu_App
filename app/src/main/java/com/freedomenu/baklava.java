@@ -56,7 +56,7 @@ public class baklava extends Activity {
             new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    Intent intent = new Intent("com.freedomenu.activity_baklava");
+                    Intent intent = new Intent("com.freedomenu.EddysFamousBaklava");
                     startActivity(intent);
                 }
 

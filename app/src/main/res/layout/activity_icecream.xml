@@ -14,7 +14,7 @@
         android:layout_width="665dp"
         android:layout_height="755dp"
         android:background="@null"
-        android:id="@+id/button_ice_cream_no"
+        android:id="@+id/button_activity_icecream_no"
         android:visibility="visible"
         android:layout_toStartOf="@+id/Salad_main" />
 
@@ -34,7 +34,7 @@
         android:layout_width="700dp"
         android:layout_height="755dp"
         android:background="@null"
-        android:id="@+id/button_ice_cream_yes"
+        android:id="@+id/button_activity_icecream_yes"
         android:visibility="visible"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
@@ -72,7 +72,7 @@
         android:id="@+id/textView3"
         android:layout_gravity="right|bottom"
         android:textSize="200sp"
-        android:layout_alignBottom="@+id/button_ice_cream_yes"
+        android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
 

@@ -12,6 +12,7 @@ public class Beverages extends Activity {
 
     private static Button button;
     private static Button button2;
+    private static Button button3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,7 +29,7 @@ public class Beverages extends Activity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent = new Intent("com.freedomenu.desserts");
+                        Intent intent = new Intent("com.freedomenu.dessert");
                         startActivity(intent);
                     }
 
@@ -52,8 +53,8 @@ public class Beverages extends Activity {
     }
 
     public void OnClickButtonListener3() {
-        button2 = (Button) findViewById(R.id.button_beverages_center);
-        button2.setOnClickListener(
+        button3 = (Button) findViewById(R.id.button_beverages_center);
+        button3.setOnClickListener(
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {

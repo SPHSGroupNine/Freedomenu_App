@@ -44,4 +44,19 @@ public class shrimp_salad extends Activity {
 
         );
     }
+
+    public void OnClickButtonListener3() {
+        button2 = (Button) findViewById(R.id.button_shrimp_salad_center);
+        button2.setOnClickListener(
+                new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent intent = new Intent("com.freedomenu.ShrimpSaladSandwich");
+                        startActivity(intent);
+                    }
+
+                }
+
+        );
+    }
 }

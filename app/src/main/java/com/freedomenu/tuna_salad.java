@@ -17,6 +17,7 @@ public class tuna_salad extends Activity {
         setContentView(R.layout.tuna_salad);
         OnClickButtonListener();
         OnClickButtonListener2();
+        OnClickButtonListener3();
     }
     public void OnClickButtonListener() {
         button = (Button) findViewById(R.id.button_tuna_salad_left);
@@ -37,6 +38,21 @@ public class tuna_salad extends Activity {
                     @Override
                     public void onClick(View v) {
                         Intent intent = new Intent("com.freedomenu.chicken_caesar_wrap");
+                        startActivity(intent);
+                    }
+
+                }
+
+        );
+    }
+
+    public void OnClickButtonListener3() {
+        button2 = (Button) findViewById(R.id.button_tuna_salad_center);
+        button2.setOnClickListener(
+                new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent intent = new Intent("com.freedomenu.TunaSaladSandwich");
                         startActivity(intent);
                     }
 

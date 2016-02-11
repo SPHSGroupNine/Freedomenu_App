@@ -59,7 +59,7 @@ public class park_chicken_avocado extends Activity {
             new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    Intent intent = new Intent("com.freedomenu.activity_park_chicken_avocado");
+                    Intent intent = new Intent("com.freedomenu.ParkChickenAvocado");
                     startActivity(intent);
                 }
 

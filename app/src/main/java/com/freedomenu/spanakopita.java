@@ -17,6 +17,7 @@ public class spanakopita extends Activity {
         setContentView(R.layout.spanakopita);
         OnClickButtonListener();
         OnClickButtonListener2();
+        OnClickButtonListener3();
     }
     public void OnClickButtonListener() {
         button = (Button) findViewById(R.id.button_spanakopita_left);
@@ -37,6 +38,21 @@ public class spanakopita extends Activity {
                     @Override
                     public void onClick(View v) {
                         Intent intent = new Intent("com.freedomenu.soups_of_the_day");
+                        startActivity(intent);
+                    }
+
+                }
+
+        );
+    }
+
+    public void OnClickButtonListener3() {
+        button2 = (Button) findViewById(R.id.button_spanakopita_center);
+        button2.setOnClickListener(
+                new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent intent = new Intent("com.freedomenu.spanakopita_yes_no");
                         startActivity(intent);
                     }
 

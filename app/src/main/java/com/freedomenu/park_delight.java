@@ -59,7 +59,7 @@ public class park_delight extends Activity {
             new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    Intent intent = new Intent("com.freedomenu.activity_park_delight");
+                    Intent intent = new Intent("com.freedomenu.ParkDelight");
                     startActivity(intent);
                 }
 

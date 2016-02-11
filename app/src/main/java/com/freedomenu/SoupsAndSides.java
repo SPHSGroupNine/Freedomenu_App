@@ -27,7 +27,7 @@ public class SoupsAndSides extends Activity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent = new Intent("com.freedomenu.Chips");
+                        Intent intent = new Intent("com.freedomenu.MainActivity2");
                         startActivity(intent);
                     }
 

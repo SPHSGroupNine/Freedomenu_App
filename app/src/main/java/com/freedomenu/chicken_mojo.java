@@ -58,7 +58,7 @@ public class chicken_mojo extends Activity {
             new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    Intent intent = new Intent("com.freedomenu.activity_chicken_mojo");
+                    Intent intent = new Intent("com.freedomenu.ChickenMojo");
                     startActivity(intent);
                 }
 

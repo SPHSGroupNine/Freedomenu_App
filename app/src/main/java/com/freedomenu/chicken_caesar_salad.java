@@ -56,7 +56,7 @@ public class chicken_caesar_salad extends Activity {
             new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    Intent intent = new Intent("com.freedomenu.activity_chicken_caesar_salad");
+                    Intent intent = new Intent("com.freedomenu.ChickenCaesarSalad");
                     startActivity(intent);
                 }
 

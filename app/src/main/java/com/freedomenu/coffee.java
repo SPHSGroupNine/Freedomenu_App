@@ -18,7 +18,7 @@ public class coffee extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_coffee);
+        setContentView(R.layout.coffee);
         OnClickButtonListener();
         OnClickButtonListener2();
         OnClickButtonListener3();
@@ -58,7 +58,7 @@ public class coffee extends Activity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent = new Intent("com.freedomenu.activity_turkey_avocado");
+                        Intent intent = new Intent("com.freedomenu.OrganicCoffee");
                         startActivity(intent);
                     }
 

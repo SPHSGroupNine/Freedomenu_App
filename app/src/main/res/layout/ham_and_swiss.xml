@@ -9,7 +9,8 @@
         android:layout_height="755dp"
         android:text="New Button"
         android:id="@+id/button_ham_and_swiss_left"
-        android:visibility="invisible"
+        android:visibility="visible"
+        android:background="@null"
         android:layout_alignParentTop="true"
         android:layout_alignStart="@+id/arrow_ham_and_swiss_left" />
 
@@ -30,7 +31,8 @@
         android:layout_height="755dp"
         android:text="New Button"
         android:id="@+id/button_ham_and_swiss_center"
-        android:visibility="invisible"
+        android:visibility="visible"
+        android:background="@null"
         android:layout_centerHorizontal="true"
         android:layout_alignParentTop="true"
         android:layout_gravity="center_horizontal|top" />
@@ -40,7 +42,8 @@
         android:layout_height="755dp"
         android:text="New Button"
         android:id="@+id/button_ham_and_swiss_right"
-        android:visibility="invisible"
+        android:visibility="visible"
+        android:background="@null"
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="false"

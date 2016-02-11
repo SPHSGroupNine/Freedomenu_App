@@ -14,7 +14,7 @@
         android:layout_width="665dp"
         android:layout_height="755dp"
         android:background="@null"
-        android:id="@+id/button_paninis_no"
+        android:id="@+id/button_tuna_salad_no"
         android:visibility="visible"
         android:layout_toStartOf="@+id/Salad_main" />
 
@@ -34,16 +34,12 @@
         android:layout_width="700dp"
         android:layout_height="755dp"
         android:background="@null"
-        android:id="@+id/button_paninis_yes"
+        android:id="@+id/button_tuna_salad_yes"
         android:visibility="visible"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:layout_toEndOf="@+id/Salad_main" /><![CDATA[
-
-    />
-
-    ]]>
+        android:layout_toEndOf="@+id/Salad_main" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -66,7 +62,7 @@
         android:id="@+id/textView2"
         android:layout_gravity="left|bottom"
         android:textSize="200sp"
-        android:layout_alignBottom="@+id/button_paninis_no"
+        android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
@@ -78,9 +74,9 @@
         android:id="@+id/textView3"
         android:layout_gravity="right|bottom"
         android:textSize="200sp"
-        android:layout_alignBottom="@+id/button_paninis_yes"
-        android:layout_alignRight="@+id/button_paninis_yes"
-        android:layout_alignEnd="@+id/button_paninis_yes" />
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
 
 </RelativeLayout>

@@ -11,6 +11,8 @@ public class chicken_caesar_wrap extends Activity {
 
     private static Button button;
     private static Button button2;
+    private static Button button3;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,6 +20,7 @@ public class chicken_caesar_wrap extends Activity {
         setContentView(R.layout.chicken_caesar_wrap);
         OnClickButtonListener();
         OnClickButtonListener2();
+        OnClickButtonListener3();
     }
     public void OnClickButtonListener() {
         button = (Button) findViewById(R.id.arrow_chicken_caesar_left);
@@ -38,6 +41,20 @@ public class chicken_caesar_wrap extends Activity {
                     @Override
                     public void onClick(View v) {
                         Intent intent = new Intent("com.freedomenu.severn_club");
+                        startActivity(intent);
+                    }
+
+                }
+
+        );
+    }
+    public void OnClickButtonListener3() {
+        button3 = (Button) findViewById(R.id.button_chicken_caesar_center);
+        button3.setOnClickListener(
+                new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent intent = new Intent("com.freedomenu.ChickenCaesarWrapSandwich");
                         startActivity(intent);
                     }
 

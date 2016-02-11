@@ -17,6 +17,7 @@ public class turkey_breast extends Activity {
         setContentView(R.layout.turkey_breast);
         OnClickButtonListener();
         OnClickButtonListener2();
+        OnClickButtonListener3();
     }
     public void OnClickButtonListener() {
         button = (Button) findViewById(R.id.button_turkey_breast_left);
@@ -37,6 +38,21 @@ public class turkey_breast extends Activity {
                     @Override
                     public void onClick(View v) {
                         Intent intent = new Intent("com.freedomenu.chicken_salad");
+                        startActivity(intent);
+                    }
+
+                }
+
+        );
+    }
+
+    public void OnClickButtonListener3() {
+        button2 = (Button) findViewById(R.id.button_turkey_breast_center);
+        button2.setOnClickListener(
+                new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent intent = new Intent("com.freedomenu.TurkeyBreastSandwich");
                         startActivity(intent);
                     }
 

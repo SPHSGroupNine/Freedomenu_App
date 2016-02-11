@@ -6,7 +6,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class ThePlants extends Activity {
+
+
+public class spanakopita_yes_no extends Activity {
 
     private static Button button;
     private static Button button2;
@@ -14,25 +16,14 @@ public class ThePlants extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_the_plants);
+        setContentView(R.layout.activity_spanakopita);
         OnClickButtonListener();
         OnClickButtonListener2();
     }
+
     public void OnClickButtonListener() {
-        button = (Button) findViewById(R.id.button_the_plants_no);
+        button = (Button) findViewById(R.id.button_spanakopita_yes);
         button.setOnClickListener(
-                new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        Intent intent = new Intent("com.freedomenu.the_plants");
-                        startActivity(intent);
-                    }
-                }
-        );
-    }
-    public void OnClickButtonListener2() {
-        button2 = (Button) findViewById(R.id.button_the_plants_yes);
-        button2.setOnClickListener(
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
@@ -41,7 +32,24 @@ public class ThePlants extends Activity {
                     }
 
                 }
-
         );
     }
+
+    public void OnClickButtonListener2() {
+        button2 = (Button) findViewById(R.id.button_spanakopita_no);
+        button2.setOnClickListener(
+                new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent intent = new Intent("com.freedomenu.spanakopita");
+                        startActivity(intent);
+                    }
+
+
+                }
+        );
+    }
+
+
 }
+

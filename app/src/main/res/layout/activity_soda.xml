@@ -63,7 +63,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="$$$"
+        android:text="Price: $2.25"
         android:id="@+id/Price_Salad"
         android:textSize="70sp"
         android:textIsSelectable="false"

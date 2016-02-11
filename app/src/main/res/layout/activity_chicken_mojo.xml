@@ -14,7 +14,7 @@
         android:layout_width="665dp"
         android:layout_height="755dp"
         android:background="@null"
-        android:id="@+id/button_chicken_mojo_no"
+        android:id="@+id/button_activity_chicken_mojo_no"
         android:visibility="visible"
         android:layout_toStartOf="@+id/Salad_main" />
 
@@ -34,7 +34,7 @@
         android:layout_width="700dp"
         android:layout_height="755dp"
         android:background="@null"
-        android:id="@+id/button_chicken_mojo_yes"
+        android:id="@+id/button_activity_chicken_mojo_yes"
         android:visibility="visible"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"

@@ -62,7 +62,7 @@
         android:id="@+id/textView2"
         android:layout_gravity="left|bottom"
         android:textSize="200sp"
-        android:layout_below="@+id/Salad_main"
+        android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
@@ -74,9 +74,9 @@
         android:id="@+id/textView3"
         android:layout_gravity="right|bottom"
         android:textSize="200sp"
-        android:layout_alignBottom="@+id/button_the_governor_yes"
-        android:layout_alignRight="@+id/button_the_governor_yes"
-        android:layout_alignEnd="@+id/button_the_governor_yes" />
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
 
 </RelativeLayout>

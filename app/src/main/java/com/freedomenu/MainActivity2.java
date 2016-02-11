@@ -10,6 +10,7 @@ public class MainActivity2 extends Activity {
 
     private static Button button;
     private static Button button2;
+    private static Button button3;
 
     /*onCreate links the xml file "activity_main2" to this java file. It also calls on OnClickButtonListener() and OnClickButtonListener2()*/
     @Override
@@ -52,8 +53,8 @@ public class MainActivity2 extends Activity {
     }
 
     public void OnClickButtonListener3() {
-        button2 = (Button) findViewById(R.id.button_salad_main_center);
-        button2.setOnClickListener(
+        button3 = (Button) findViewById(R.id.button_salad_main_center);
+        button3.setOnClickListener(
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {

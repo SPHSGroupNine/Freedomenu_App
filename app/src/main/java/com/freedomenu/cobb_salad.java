@@ -59,7 +59,7 @@ public class cobb_salad extends Activity {
             new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    Intent intent = new Intent("com.freedomenu.activity_cobb_salad");
+                    Intent intent = new Intent("com.freedomenu.CobbSalad");
                     startActivity(intent);
                 }
 

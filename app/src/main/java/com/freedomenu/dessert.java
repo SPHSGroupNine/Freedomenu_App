@@ -56,7 +56,7 @@ public class dessert extends Activity {
             new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    Intent intent = new Intent("com.freedomenu.baklava");
+                    Intent intent = new Intent("com.freedomenu.Desserts");
                     startActivity(intent);
                 }
 

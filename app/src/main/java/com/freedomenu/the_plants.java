@@ -22,6 +22,7 @@ public class the_plants extends Activity {
         setContentView(R.layout.the_plants);
         OnClickButtonListener();
         OnClickButtonListener2();
+        OnClickButtonListener3();
     }
 
     public void OnClickButtonListener() {

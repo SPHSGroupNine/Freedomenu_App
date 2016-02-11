@@ -59,7 +59,7 @@ public class greek_salad extends Activity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent = new Intent("com.freedomenu.");
+                        Intent intent = new Intent("com.freedomenu.GreekSalad");
                         startActivity(intent);
                     }
 

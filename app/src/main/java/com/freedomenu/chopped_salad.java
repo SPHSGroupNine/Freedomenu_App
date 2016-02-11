@@ -59,7 +59,7 @@ public class chopped_salad extends Activity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent = new Intent("com.freedomenu.activity_the_cuban");
+                        Intent intent = new Intent("com.freedomenu.ChoppedSalad");
                         startActivity(intent);
                     }
 

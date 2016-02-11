@@ -9,10 +9,9 @@
         android:layout_height="755dp"
         android:text="New Button"
         android:background="@null"
-        android:id="@+id/button_hot_paninis_left"
+        android:id="@+id/paninis_left"
         android:visibility="visible"
-        android:layout_alignParentTop="true"
-        android:layout_alignStart="@+id/arrow_salad_left" />
+        />
 
     <ImageView
         android:layout_width="446dp"
@@ -23,30 +22,24 @@
         android:adjustViewBounds="true"
         android:baselineAlignBottom="false"
         android:clickable="false"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+         />
 
     <Button
         android:layout_width="427dp"
         android:layout_height="755dp"
         android:text="New Button"
         android:background="@null"
-        android:id="@+id/button_hot_paninis_center"
+        android:id="@+id/paninis_center"
         android:visibility="visible"
-        android:layout_centerHorizontal="true"
-        android:layout_alignParentTop="true"
         android:layout_gravity="center_horizontal|top" />
 
     <Button
         android:layout_width="389dp"
         android:layout_height="755dp"
         android:text="New Button"
-        android:id="@+id/button_hot_paninis_right"
+        android:id="@+id/paninis_right"
         android:visibility="visible"
         android:background="@null"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="false"
         android:layout_gravity="right|top" />
 
     <ImageView
@@ -67,14 +60,6 @@
         android:id="@+id/Type_Salad"
         android:textIsSelectable="false"
         android:typeface="serif"
-        android:layout_above="@+id/Salad_main"
-        android:layout_centerHorizontal="true"
-        android:layout_alignParentStart="false"
-        android:layout_alignWithParentIfMissing="false"
-        android:layout_alignParentRight="false"
-        android:layout_alignParentBottom="false"
-        android:layout_alignParentLeft="false"
-        android:layout_alignParentTop="true"
         android:textSize="93sp"
         android:layout_gravity="center_horizontal|top" />
 

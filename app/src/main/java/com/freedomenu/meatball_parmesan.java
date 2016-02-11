@@ -20,6 +20,7 @@ public class meatball_parmesan extends Activity {
         setContentView(R.layout.meatball_parmesan);
         OnClickButtonListener();
         OnClickButtonListener2();
+        OnClickButtonListener3();
     }
 
     public void OnClickButtonListener() {
@@ -49,6 +50,20 @@ public class meatball_parmesan extends Activity {
 
         );
     }
+    public void OnClickButtonListener3() {
+    button3 = (Button) findViewById(R.id.button_meatball_parmesan_center);
+    button3.setOnClickListener(
+            new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Intent intent = new Intent("com.freedomenu.MeatballParmesan");
+                    startActivity(intent);
+                }
+
+            }
+
+    );
+}
 }
 
 

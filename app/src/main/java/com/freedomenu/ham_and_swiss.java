@@ -10,6 +10,8 @@ public class ham_and_swiss extends Activity {
 
     private static Button button;
     private static Button button2;
+    private static Button button3;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,6 +19,7 @@ public class ham_and_swiss extends Activity {
         setContentView(R.layout.ham_and_swiss);
         OnClickButtonListener();
         OnClickButtonListener2();
+        OnClickButtonListener3();
     }
     public void OnClickButtonListener() {
         button = (Button) findViewById(R.id.button_ham_and_swiss_left);
@@ -37,6 +40,20 @@ public class ham_and_swiss extends Activity {
                     @Override
                     public void onClick(View v) {
                         Intent intent = new Intent("com.freedomenu.benfield_hoagie");
+                        startActivity(intent);
+                    }
+
+                }
+
+        );
+    }
+    public void OnClickButtonListener3() {
+        button3 = (Button) findViewById(R.id.button_ham_and_swiss_center);
+        button3.setOnClickListener(
+                new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent intent = new Intent("com.freedomenu.HamAndSwissSandwich");
                         startActivity(intent);
                     }
 

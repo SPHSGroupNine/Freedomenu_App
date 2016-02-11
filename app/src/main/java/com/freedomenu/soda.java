@@ -58,7 +58,7 @@ public class soda extends Activity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent = new Intent("com.freedomenu.");
+                        Intent intent = new Intent("com.freedomenu.FountainSoda");
                         startActivity(intent);
                     }
 
