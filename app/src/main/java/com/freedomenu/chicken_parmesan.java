@@ -18,7 +18,7 @@ public class chicken_parmesan extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.cold_cuts);
+        setContentView(R.layout.chicken_parmesan);
         OnClickButtonListener();
         OnClickButtonListener2();
         OnClickButtonListener3();

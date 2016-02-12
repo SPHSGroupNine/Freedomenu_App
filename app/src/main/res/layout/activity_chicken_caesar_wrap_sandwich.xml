@@ -28,7 +28,7 @@
         android:clickable="false"
         android:layout_above="@+id/textView3"
         android:layout_centerHorizontal="true"
-        android:background="@drawable/sandwich_2" />
+        android:background="@drawable/sandwich_3" />
 
     <Button
         android:layout_width="700dp"

@@ -67,14 +67,6 @@
         android:id="@+id/Type_Salad"
         android:textIsSelectable="false"
         android:typeface="serif"
-        android:layout_above="@+id/Salad_main"
-        android:layout_centerHorizontal="true"
-        android:layout_alignParentStart="false"
-        android:layout_alignWithParentIfMissing="false"
-        android:layout_alignParentRight="false"
-        android:layout_alignParentBottom="false"
-        android:layout_alignParentLeft="false"
-        android:layout_alignParentTop="true"
         android:textSize="130sp"
         android:layout_gravity="center_horizontal|top" />
 

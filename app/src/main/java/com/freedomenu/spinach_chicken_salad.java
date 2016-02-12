@@ -24,7 +24,7 @@ public class spinach_chicken_salad extends Activity {
     }
 
     public void OnClickButtonListener() {
-        button = (Button) findViewById(R.id.button_severn_club_left);
+        button = (Button) findViewById(R.id.button_spinach_chicken_salad_left);
         button.setOnClickListener(
                 new View.OnClickListener() {
                     @Override
@@ -38,7 +38,7 @@ public class spinach_chicken_salad extends Activity {
         );
     }
     public void OnClickButtonListener2() {
-        button2 = (Button) findViewById(R.id.button_severn_club_right);
+        button2 = (Button) findViewById(R.id.button_spinach_chicken_salad_right);
         button2.setOnClickListener(
                 new View.OnClickListener() {
                     @Override

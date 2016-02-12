@@ -18,6 +18,7 @@ public class potato_salad extends Activity {
         setContentView(R.layout.potato_salad);
         OnClickButtonListener();
         OnClickButtonListener2();
+        OnClickButtonListener3();
     }
     public void OnClickButtonListener() {
         button = (Button) findViewById(R.id.button_potato_salad_left);
@@ -25,7 +26,7 @@ public class potato_salad extends Activity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent = new Intent("com.freedomenu.chip");
+                        Intent intent = new Intent("com.freedomenu.Chips");
                         startActivity(intent);
                     }
                 }

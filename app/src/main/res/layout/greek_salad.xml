@@ -23,7 +23,8 @@
         android:baselineAlignBottom="false"
         android:clickable="false"
         android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/greeksalad" />
 
     <Button
         android:layout_width="427dp"

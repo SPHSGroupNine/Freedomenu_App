@@ -44,7 +44,7 @@ public class chicken_mojo extends Activity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent = new Intent("com.freedomenu.meetball_parmesan");
+                        Intent intent = new Intent("com.freedomenu.meatball_parmesan");
                         startActivity(intent);
                     }
 

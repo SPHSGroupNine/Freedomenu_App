@@ -17,6 +17,7 @@ public class shrimp_salad extends Activity {
         setContentView(R.layout.shrimp_salad);
         OnClickButtonListener();
         OnClickButtonListener2();
+        OnClickButtonListener3();
     }
     public void OnClickButtonListener() {
         button = (Button) findViewById(R.id.button_shrimp_salad_left);

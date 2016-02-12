@@ -27,7 +27,8 @@
         android:baselineAlignBottom="false"
         android:clickable="false"
         android:layout_above="@+id/textView3"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/ice_cream" />
 
     <Button
         android:layout_width="700dp"

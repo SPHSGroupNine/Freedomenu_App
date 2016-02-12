@@ -18,7 +18,7 @@ public class chocolate_chip_cookies extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.cold_cuts);
+        setContentView(R.layout.chocolate_chip_cookies);
         OnClickButtonListener();
         OnClickButtonListener2();
         OnClickButtonListener3();

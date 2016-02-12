@@ -794,6 +794,16 @@
             </intent-filter>
         </activity>
 
+        <activity android:name=".spanakopita_yes_no"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="com.freedomenu.spanakopita_yes_no" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
         <activity android:name=".spanakopita"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">

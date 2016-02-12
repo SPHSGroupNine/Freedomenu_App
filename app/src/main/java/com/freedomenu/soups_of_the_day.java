@@ -37,7 +37,7 @@ public class soups_of_the_day extends Activity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent = new Intent("com.freedomenu.chips");
+                        Intent intent = new Intent("com.freedomenu.Chips");
                         startActivity(intent);
                     }
 
@@ -52,7 +52,7 @@ public class soups_of_the_day extends Activity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent = new Intent("com.freedomenu.SoupsOfTheDay");
+                        Intent intent = new Intent("com.freedomenu.SoupOfTheDay");
                         startActivity(intent);
                     }
 

@@ -27,7 +27,7 @@ public class park_salad extends Activity {
     }
 
     public void OnClickButtonListener() {
-        button = (Button) findViewById(R.id.button_roast_beef_left);
+        button = (Button) findViewById(R.id.button_park_salad_left);
         button.setOnClickListener(
                 new View.OnClickListener() {
                     @Override
@@ -40,7 +40,7 @@ public class park_salad extends Activity {
 
         );
     }    public void OnClickButtonListener2() {
-        button2 = (Button) findViewById(R.id.button_roast_beef_right);
+        button2 = (Button) findViewById(R.id.button_park_salad_right);
         button2.setOnClickListener(
                 new View.OnClickListener() {
                     @Override
@@ -53,12 +53,12 @@ public class park_salad extends Activity {
 
         );
     }        public void OnClickButtonListener3() {
-    button3 = (Button) findViewById(R.id.button_roast_beef_center);
+    button3 = (Button) findViewById(R.id.button_park_salad_center);
     button3.setOnClickListener(
             new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    Intent intent = new Intent("com.freedomenu.RoastBeefSandwich");
+                    Intent intent = new Intent("com.freedomenu.ParkSalad");
                     startActivity(intent);
                 }
 

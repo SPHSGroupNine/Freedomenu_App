@@ -23,7 +23,7 @@ public class chicken_caesar_wrap extends Activity {
         OnClickButtonListener3();
     }
     public void OnClickButtonListener() {
-        button = (Button) findViewById(R.id.arrow_chicken_caesar_left);
+        button = (Button) findViewById(R.id.button_chicken_caesar_left);
         button.setOnClickListener(
                 new View.OnClickListener() {
                     @Override
