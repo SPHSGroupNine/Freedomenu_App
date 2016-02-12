@@ -28,7 +28,7 @@ public class beverages_yes_no extends Activity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent = new Intent("com.freedomenu.beverages");
+                        Intent intent = new Intent("com.freedomenu.Beverages");
                         startActivity(intent);
                     }
 

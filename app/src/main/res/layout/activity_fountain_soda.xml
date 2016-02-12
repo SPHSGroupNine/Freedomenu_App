@@ -45,7 +45,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Meatball Sub"
+        android:text="Soda"
         android:id="@+id/Type_Salad"
         android:textIsSelectable="false"
         android:typeface="serif"

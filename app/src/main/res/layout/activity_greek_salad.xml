@@ -27,8 +27,7 @@
         android:baselineAlignBottom="false"
         android:clickable="false"
         android:layout_above="@+id/textView3"
-        android:layout_centerHorizontal="true"
-        android:background="@drawable/greeksalad" />
+        android:layout_centerHorizontal="true" />
 
     <Button
         android:layout_width="700dp"
@@ -36,12 +35,10 @@
         android:background="@null"
         android:id="@+id/button_activity_greek_salad_yes"
         android:visibility="visible"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_toEndOf="@+id/Salad_main"
 
-    />
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3" />
 
 
 

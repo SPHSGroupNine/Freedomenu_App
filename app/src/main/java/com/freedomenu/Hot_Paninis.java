@@ -25,7 +25,7 @@ public class Hot_Paninis extends Activity {
     }
 
     public void OnClickButtonListener() {
-        button = (Button) findViewById(R.id.paninis_left);
+        button = (Button) findViewById(R.id.button_paninis_left);
         button.setOnClickListener(
                 new View.OnClickListener() {
                     @Override
@@ -39,7 +39,7 @@ public class Hot_Paninis extends Activity {
         );
     }
     public void OnClickButtonListener2() {
-        button2 = (Button) findViewById(R.id.paninis_right);
+        button2 = (Button) findViewById(R.id.button_paninis_right);
         button2.setOnClickListener(
                 new View.OnClickListener() {
                     @Override
@@ -53,7 +53,7 @@ public class Hot_Paninis extends Activity {
         );
     }
     public void OnClickButtonListener3() {
-        button3 = (Button) findViewById(R.id.paninis_center);
+        button3 = (Button) findViewById(R.id.button_paninis_center);
         button3.setOnClickListener(
                 new View.OnClickListener() {
                     @Override

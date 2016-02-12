@@ -22,7 +22,6 @@
         android:layout_width="350dp"
         android:layout_height="300dp"
         android:id="@+id/Salad_main"
-        android:background="@drawable/chicken_mojo"
         android:layout_gravity="center_vertical"
         android:adjustViewBounds="false"
         android:baselineAlignBottom="false"

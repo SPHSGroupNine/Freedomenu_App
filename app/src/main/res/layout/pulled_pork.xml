@@ -18,7 +18,6 @@
         android:layout_width="350dp"
         android:layout_height="300dp"
         android:id="@+id/Salad_main"
-        android:background="@drawable/pulled_pork_sandwiches"
         android:layout_gravity="center"
         android:adjustViewBounds="false"
         android:baselineAlignBottom="false"

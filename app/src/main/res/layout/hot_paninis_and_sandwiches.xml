@@ -9,7 +9,7 @@
         android:layout_height="755dp"
         android:text="New Button"
         android:background="@null"
-        android:id="@+id/paninis_left"
+        android:id="@+id/button_paninis_left"
         android:visibility="visible"
         />
 
@@ -27,9 +27,8 @@
     <Button
         android:layout_width="427dp"
         android:layout_height="755dp"
-        android:text="New Button"
         android:background="@null"
-        android:id="@+id/paninis_center"
+        android:id="@+id/button_paninis_center"
         android:visibility="visible"
         android:layout_gravity="center_horizontal|top" />
 
@@ -37,7 +36,7 @@
         android:layout_width="389dp"
         android:layout_height="755dp"
         android:text="New Button"
-        android:id="@+id/paninis_right"
+        android:id="@+id/button_paninis_right"
         android:visibility="visible"
         android:background="@null"
         android:layout_gravity="right|top" />
